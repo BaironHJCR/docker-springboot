@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class holamundo {
     @GetMapping("/hola")
     public String holaMundo() {
-        return "¡Hola Mundo desde Spring Boot!. Ahora se encuentra en la rama A";
+        return "¡Hola Mundo desde Spring Boot! - También desde la rama A\"!";
         
     }
 }
